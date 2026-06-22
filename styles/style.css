@@ -228,7 +228,6 @@ nav h2 {
     /* background-color: red; */
     margin-top: 135px;
     border-radius: 14px;
-
 }
 
 .sec-5-container {
@@ -270,4 +269,76 @@ nav h2 {
     display: block;
     margin: auto;
     border-radius: 48px;
+}
+
+/* sec-6 related styles */
+.sec-6 {
+    /* background-color: red; */
+    margin-top: 90px;
+}
+
+.sec-6-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sec-6-container h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 700;
+    font-size: 97px;
+}
+
+form .input {
+    display: block;
+    margin-bottom: 19px;
+}
+
+input {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    outline: none;
+    width: 350px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 1px solid #D6DDED;
+    border-radius: 10px;
+    padding: 2px 20px;
+}
+
+input::placeholder {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+}
+
+form .text-area {
+    width: 350px;
+    height: 100px;
+    background: #FFFFFF;
+    border: 1px solid #D6DDED;
+    border-radius: 10px;
+    padding: 20px 20px;
+}
+
+textarea {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    outline: none;
+    resize: none;
+}
+
+textarea::placeholder {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+}
+
+.form-text {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-family: "Inter", sans-serif;
+}
+
+.get-in-touch-btn {
+    width: 392px;
 }
