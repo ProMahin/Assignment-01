@@ -221,3 +221,53 @@ nav h2 {
     font-size: 16px;
     font-family: "Inter", sans-serif;
 }
+
+/* sec-5 related styles */
+.sec-5 {
+    background-color: #FFFFFF;
+    /* background-color: red; */
+    margin-top: 135px;
+    border-radius: 14px;
+
+}
+
+.sec-5-container {
+    padding: 70px 0px;
+    text-align: center;
+}
+
+.sec-5-container h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.sec-5-container p {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.centered-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.get-started-btn {
+    font-weight: 500;
+}
+
+.sec-5-container img {
+    width: 840px;
+    height: 364px;
+    display: block;
+    margin: auto;
+    border-radius: 48px;
+}
