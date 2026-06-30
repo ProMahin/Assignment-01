@@ -403,17 +403,20 @@ textarea::placeholder {
 
     .sec-2{
         flex-direction: column-reverse;
-    }
-    
-    .sec-2-image{
-        display: block;
-        margin: auto;
-        height: 100%;
+        margin-left: 14px;
+        margin-right: 15px;
     }
 
+    .sec-2-image img{
+        width: 100%;
+        height: 100%;
+    }
+    
     .sec-2-texts{
         margin-top: 20px;
         text-align: center;
+        margin-right: 15px;
+        margin-left: 15px;
     }
 
     .sec-2-texts p{
@@ -422,8 +425,8 @@ textarea::placeholder {
 
     .sec-3-container{
         padding: 45px 40px;
-        margin-right: 20px;
-        margin-left: 20px;
+        margin-right: 15px;
+        margin-left: 15px;
     }
 
     .sec-3-productive-container{
@@ -431,5 +434,24 @@ textarea::placeholder {
         text-align: center;
     }
 
+    .card-container{
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .sec-5{
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+
+    .sec-5-container{
+        padding: 50px 15px;
+    }
+
+    .sec-5-container img{
+        width: 100%;
+        height: 100%;
+    }
     
 }
