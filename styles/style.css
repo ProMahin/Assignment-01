@@ -52,6 +52,7 @@ nav h2 {
 .header-items h1 {
     margin-top: 0;
     font-size: 65px;
+    margin-bottom: 90px;
     color: #252432;
 }
 
@@ -388,9 +389,23 @@ textarea::placeholder {
         margin: 0px 10px;
     }
 
+    .header {
+        height: 600px;
+    }
+
+    .header-items {
+        margin-top: 0px;
+    }
+
     .header-items h1 {
+        font-size: 55px;
         margin-right: 10px;
         margin-left: 10px;
+        margin-bottom: 30px;
+    }
+
+    .header-items button {
+        margin-top: 30px;
     }
 
     .main {
@@ -452,7 +467,7 @@ textarea::placeholder {
 
     .sec-6-container {
         flex-direction: column;
-        padding: 0px 10px;
+        padding: 0px 15px;
     }
 
     .sec-6-container h1 {
@@ -461,6 +476,27 @@ textarea::placeholder {
 
     .sec-6-form {
         margin-top: 30px;
+    }
+
+    .sec-6-form {
+        width: 100%;
+    }
+
+    form input {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    textarea {
+        max-width: 100%;
+        min-width: 100%;
+        min-height: 130px;
+        box-sizing: border-box;
+    }
+
+    .get-in-touch-btn {
+        width: 100%;
     }
 
     .sec-7-footer-container {
